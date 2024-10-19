@@ -34,6 +34,7 @@ export function handle(config: any): any {
         },
     ];
     const rules = [
+		'DOMAIN-SUFFIX,steamcontent.com,DIRECT',
         'DOMAIN-SUFFIX,cn,DIRECT',
         'GEOSITE,CN,DIRECT',
         'GEOIP,CN,DIRECT,no-resolve',
